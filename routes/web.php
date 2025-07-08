@@ -14,6 +14,11 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/contact', function () {
+
+    return view('contact');
+});
+
 // buat rute baru 
 //1. blog
 //2 buah artikal judul dan isi
